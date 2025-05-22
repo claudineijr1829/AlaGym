@@ -12,7 +12,10 @@ public abstract class Usuario {
     protected int idade;
     protected char sexo;
 
-    public Usuario(String nome, String email, String senha, String endereco, int telefone, String permissao, int idade, char sexo) {
+    public Usuario(
+            String nome, String email, String senha, String endereco, 
+            int telefone, String permissao, int idade, char sexo
+    ){
         this.nome = nome;
         this.email = email;
         this.senha = senha;

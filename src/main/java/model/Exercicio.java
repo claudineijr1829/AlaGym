@@ -3,37 +3,37 @@ package model;
 
 
 public class Exercicio {
-    private char musculo;
-    private char nome;
-    private char descricao;
+    private String musculo;
+    private String nome;
+    private String descricao;
 
-    public Exercicio(char musculo, char nome, char descricao) {
+    public Exercicio(String musculo, String nome, String descricao) {
         this.musculo = musculo;
         this.nome = nome;
         this.descricao = descricao;
     }
 
-    public char getMusculo() {
+    public String getMusculo() {
         return musculo;
     }
 
-    public void setMusculo(char musculo) {
+    public void setMusculo(String musculo) {
         this.musculo = musculo;
     }
 
-    public char getNome() {
+    public String getNome() {
         return nome;
     }
 
-    public void setNome(char nome) {
+    public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public char getDescricao() {
+    public String getDescricao() {
         return descricao;
     }
 
-    public void setDescricao(char descricao) {
+    public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
     

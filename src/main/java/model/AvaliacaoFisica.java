@@ -4,7 +4,7 @@ package model;
 
 public class AvaliacaoFisica {
     private int percentualGordura;
-    private char dataAvalicao;
+    private String dataAvalicao;
     private int massaMagra;
     private float circunferenciaCintura;
     private float circunferenciaQuadril;
@@ -12,7 +12,7 @@ public class AvaliacaoFisica {
     private char pressaoArterial;
     private float imc;
 
-    public AvaliacaoFisica(int percentualGordura, char dataAvalicao, int massaMagra, float circunferenciaCintura, float circunferenciaQuadril, int frequenciaCardiaca, char pressaoArterial, float imc) {
+    public AvaliacaoFisica(int percentualGordura, String dataAvalicao, int massaMagra, float circunferenciaCintura, float circunferenciaQuadril, int frequenciaCardiaca, char pressaoArterial, float imc) {
         this.percentualGordura = percentualGordura;
         this.dataAvalicao = dataAvalicao;
         this.massaMagra = massaMagra;
@@ -31,11 +31,11 @@ public class AvaliacaoFisica {
         this.percentualGordura = percentualGordura;
     }
 
-    public char getDataAvalicao() {
+    public String getDataAvalicao() {
         return dataAvalicao;
     }
 
-    public void setDataAvalicao(char dataAvalicao) {
+    public void setDataAvalicao(String dataAvalicao) {
         this.dataAvalicao = dataAvalicao;
     }
 

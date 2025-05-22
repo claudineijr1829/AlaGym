@@ -9,6 +9,10 @@ public class Instrutor extends Usuario {
         super(nome, email, senha, endereco, telefone, permissao, idade, sexo);
         this.cref = cref;
     }
+    
+    public void exibirCredenciais(){
+        System.out.println("Instrutor: "+ nome +" | CREF: "+ cref);
+    }
 
     public int getCref() {
         return cref;
